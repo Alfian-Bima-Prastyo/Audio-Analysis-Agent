@@ -75,6 +75,7 @@ RECOMMENDATION: [1-2 sentences of concrete action items for the legal team]"""
 
     for line in content.splitlines():
         line = line.strip()
+        line = line.strip("*").strip()
         lower = line.lower()
         if lower.startswith("summary:"):
             summary = cleaning_text(line[line.index(":")+1:])
