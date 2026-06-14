@@ -26,6 +26,9 @@ def build_issues(report_data: dict, long_silence_threshold: float = 10.0) -> lis
     if quality["clipping_detected"]:
         n = quality["clipping_sample_count"]
         issues.append(f"Clipping detected: {n} samples at 0dBFS")
+        
+    if not quality["clipping_detected"] and quality["max_volume_db"] is not None and quality["max_volume_db"] > -1.0:
+        issues.append(f"Audio peaks near 0dBFS ({quality['max_volume_db']} dB) — risk of clipping")
 
     if report_data["bitrate_kbps"] < 64:
         bitrate = report_data["bitrate_kbps"]
