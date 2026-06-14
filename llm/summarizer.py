@@ -15,12 +15,9 @@ MODEL = "openai/gpt-oss-120b:free"
 
 
 def cleaning_text(text: str) -> str:
-    """Normalize unicode characters to standard ASCII-friendly text."""
-    text = text.replace("\u202f", " ")
-    text = text.replace("\u2011", "-")
-    text = text.replace("\u2013", "-")
-    text = text.replace("\u2014", "-")
-    text = text.replace("\u00a0", " ")
+    """Normalize unicode characters to ASCII-friendly text."""
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", errors="ignore").decode("ascii")
     return text.strip()
 
 
