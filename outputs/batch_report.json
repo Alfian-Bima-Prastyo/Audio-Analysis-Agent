@@ -1,0 +1,570 @@
+{
+  "summary": {
+    "total_files": 2,
+    "rating_counts": {
+      "good": 1,
+      "fair": 0,
+      "poor": 1
+    },
+    "total_issues": 3
+  },
+  "reports": [
+    {
+      "file_name": "bad_audio.mp3",
+      "duration_seconds": 121.11,
+      "format": "mp3",
+      "sample_rate_hz": 16000,
+      "bitrate_kbps": 47.2,
+      "channels": 1,
+      "audio_quality": {
+        "avg_volume_db": -16.6,
+        "max_volume_db": -0.4,
+        "silence_ratio": 0.316,
+        "clipping_detected": true,
+        "clipping_sample_count": 779,
+        "quality_rating": "poor"
+      },
+      "silence_segments": [
+        {
+          "start": 3.36,
+          "end": 5.33,
+          "duration": 1.97
+        },
+        {
+          "start": 23.2,
+          "end": 24.22,
+          "duration": 1.03
+        },
+        {
+          "start": 24.66,
+          "end": 26.03,
+          "duration": 1.37
+        },
+        {
+          "start": 28.47,
+          "end": 30.18,
+          "duration": 1.71
+        },
+        {
+          "start": 32.39,
+          "end": 39.43,
+          "duration": 7.04
+        },
+        {
+          "start": 39.45,
+          "end": 43.2,
+          "duration": 3.74
+        },
+        {
+          "start": 44.82,
+          "end": 46.84,
+          "duration": 2.01
+        },
+        {
+          "start": 47.71,
+          "end": 49.21,
+          "duration": 1.5
+        },
+        {
+          "start": 50.98,
+          "end": 53.02,
+          "duration": 2.04
+        },
+        {
+          "start": 54.28,
+          "end": 57.87,
+          "duration": 3.59
+        },
+        {
+          "start": 58.69,
+          "end": 60.26,
+          "duration": 1.57
+        },
+        {
+          "start": 62.77,
+          "end": 64.72,
+          "duration": 1.95
+        },
+        {
+          "start": 94.95,
+          "end": 96.17,
+          "duration": 1.22
+        },
+        {
+          "start": 99.95,
+          "end": 101.38,
+          "duration": 1.43
+        },
+        {
+          "start": 103.28,
+          "end": 104.66,
+          "duration": 1.37
+        },
+        {
+          "start": 107.87,
+          "end": 109.6,
+          "duration": 1.73
+        },
+        {
+          "start": 111.93,
+          "end": 113.59,
+          "duration": 1.66
+        },
+        {
+          "start": 118.53,
+          "end": 119.88,
+          "duration": 1.35
+        }
+      ],
+      "issues": [
+        "Clipping detected: 779 samples at 0dBFS",
+        "Low bitrate: 47.2 kbps is below recommended 128 kbps"
+      ],
+      "llm_summary": "The recording exhibits significant quality problems, including audible clipping and an extremely low bitrate, which will likely cause frequent transcription errors and missed speech content. The high silence ratio further reduces usable material, making reliable verbatim transcription difficult.",
+      "recommendation": "Obtain a re-recording using a device set to at least 128 kbps, 44.1 kHz (or 48 kHz) and ensure proper gain staging to avoid clipping; if re-recording is impossible, supplement the transcript with a manual review of the audio to flag unintelligible sections."
+    },
+    {
+      "file_name": "moonlight-plaza.mp3",
+      "duration_seconds": 854.53,
+      "format": "mp3",
+      "sample_rate_hz": 48000,
+      "bitrate_kbps": 128.0,
+      "channels": 1,
+      "audio_quality": {
+        "avg_volume_db": -25.3,
+        "max_volume_db": -2.4,
+        "silence_ratio": 0.136,
+        "clipping_detected": false,
+        "clipping_sample_count": 0,
+        "quality_rating": "good"
+      },
+      "silence_segments": [
+        {
+          "start": 0.57,
+          "end": 1.86,
+          "duration": 1.29
+        },
+        {
+          "start": 25.17,
+          "end": 26.4,
+          "duration": 1.23
+        },
+        {
+          "start": 32.8,
+          "end": 39.27,
+          "duration": 6.47
+        },
+        {
+          "start": 40.9,
+          "end": 42.05,
+          "duration": 1.15
+        },
+        {
+          "start": 43.27,
+          "end": 44.74,
+          "duration": 1.47
+        },
+        {
+          "start": 53.26,
+          "end": 54.93,
+          "duration": 1.67
+        },
+        {
+          "start": 67.42,
+          "end": 68.58,
+          "duration": 1.17
+        },
+        {
+          "start": 69.37,
+          "end": 70.6,
+          "duration": 1.23
+        },
+        {
+          "start": 85.88,
+          "end": 87.05,
+          "duration": 1.17
+        },
+        {
+          "start": 87.34,
+          "end": 88.47,
+          "duration": 1.13
+        },
+        {
+          "start": 127.67,
+          "end": 129.08,
+          "duration": 1.41
+        },
+        {
+          "start": 135.27,
+          "end": 136.53,
+          "duration": 1.26
+        },
+        {
+          "start": 142.22,
+          "end": 143.81,
+          "duration": 1.59
+        },
+        {
+          "start": 148.75,
+          "end": 150.21,
+          "duration": 1.46
+        },
+        {
+          "start": 156.62,
+          "end": 157.74,
+          "duration": 1.11
+        },
+        {
+          "start": 179.94,
+          "end": 180.96,
+          "duration": 1.02
+        },
+        {
+          "start": 183.61,
+          "end": 184.87,
+          "duration": 1.26
+        },
+        {
+          "start": 189.58,
+          "end": 190.84,
+          "duration": 1.26
+        },
+        {
+          "start": 195.18,
+          "end": 196.51,
+          "duration": 1.33
+        },
+        {
+          "start": 201.57,
+          "end": 202.69,
+          "duration": 1.12
+        },
+        {
+          "start": 206.43,
+          "end": 207.87,
+          "duration": 1.44
+        },
+        {
+          "start": 215.53,
+          "end": 216.55,
+          "duration": 1.02
+        },
+        {
+          "start": 222.37,
+          "end": 223.38,
+          "duration": 1.01
+        },
+        {
+          "start": 229.7,
+          "end": 231.38,
+          "duration": 1.68
+        },
+        {
+          "start": 249.23,
+          "end": 250.93,
+          "duration": 1.7
+        },
+        {
+          "start": 256.18,
+          "end": 257.42,
+          "duration": 1.25
+        },
+        {
+          "start": 264.85,
+          "end": 266.2,
+          "duration": 1.35
+        },
+        {
+          "start": 266.83,
+          "end": 268.0,
+          "duration": 1.16
+        },
+        {
+          "start": 272.83,
+          "end": 274.43,
+          "duration": 1.61
+        },
+        {
+          "start": 277.35,
+          "end": 278.69,
+          "duration": 1.35
+        },
+        {
+          "start": 289.05,
+          "end": 290.46,
+          "duration": 1.41
+        },
+        {
+          "start": 298.67,
+          "end": 299.8,
+          "duration": 1.13
+        },
+        {
+          "start": 305.65,
+          "end": 306.82,
+          "duration": 1.17
+        },
+        {
+          "start": 311.93,
+          "end": 313.52,
+          "duration": 1.59
+        },
+        {
+          "start": 323.21,
+          "end": 324.34,
+          "duration": 1.13
+        },
+        {
+          "start": 331.49,
+          "end": 332.96,
+          "duration": 1.47
+        },
+        {
+          "start": 337.27,
+          "end": 338.59,
+          "duration": 1.32
+        },
+        {
+          "start": 345.66,
+          "end": 347.23,
+          "duration": 1.57
+        },
+        {
+          "start": 348.09,
+          "end": 349.33,
+          "duration": 1.23
+        },
+        {
+          "start": 356.87,
+          "end": 358.24,
+          "duration": 1.37
+        },
+        {
+          "start": 368.21,
+          "end": 369.57,
+          "duration": 1.36
+        },
+        {
+          "start": 375.23,
+          "end": 376.64,
+          "duration": 1.41
+        },
+        {
+          "start": 386.9,
+          "end": 387.95,
+          "duration": 1.05
+        },
+        {
+          "start": 407.73,
+          "end": 408.82,
+          "duration": 1.08
+        },
+        {
+          "start": 412.83,
+          "end": 414.07,
+          "duration": 1.24
+        },
+        {
+          "start": 420.74,
+          "end": 422.06,
+          "duration": 1.32
+        },
+        {
+          "start": 422.76,
+          "end": 423.97,
+          "duration": 1.21
+        },
+        {
+          "start": 434.64,
+          "end": 435.71,
+          "duration": 1.06
+        },
+        {
+          "start": 475.81,
+          "end": 476.85,
+          "duration": 1.03
+        },
+        {
+          "start": 483.12,
+          "end": 484.38,
+          "duration": 1.26
+        },
+        {
+          "start": 510.22,
+          "end": 511.61,
+          "duration": 1.39
+        },
+        {
+          "start": 550.21,
+          "end": 551.44,
+          "duration": 1.23
+        },
+        {
+          "start": 555.14,
+          "end": 556.23,
+          "duration": 1.09
+        },
+        {
+          "start": 565.65,
+          "end": 567.22,
+          "duration": 1.57
+        },
+        {
+          "start": 577.03,
+          "end": 578.16,
+          "duration": 1.13
+        },
+        {
+          "start": 578.59,
+          "end": 579.81,
+          "duration": 1.23
+        },
+        {
+          "start": 589.86,
+          "end": 591.02,
+          "duration": 1.16
+        },
+        {
+          "start": 596.77,
+          "end": 598.16,
+          "duration": 1.39
+        },
+        {
+          "start": 609.52,
+          "end": 610.74,
+          "duration": 1.22
+        },
+        {
+          "start": 628.65,
+          "end": 630.31,
+          "duration": 1.66
+        },
+        {
+          "start": 633.01,
+          "end": 634.18,
+          "duration": 1.17
+        },
+        {
+          "start": 653.97,
+          "end": 655.05,
+          "duration": 1.08
+        },
+        {
+          "start": 666.08,
+          "end": 667.35,
+          "duration": 1.27
+        },
+        {
+          "start": 675.15,
+          "end": 678.02,
+          "duration": 2.87
+        },
+        {
+          "start": 692.71,
+          "end": 693.8,
+          "duration": 1.09
+        },
+        {
+          "start": 699.4,
+          "end": 700.41,
+          "duration": 1.01
+        },
+        {
+          "start": 707.49,
+          "end": 708.52,
+          "duration": 1.04
+        },
+        {
+          "start": 715.07,
+          "end": 716.47,
+          "duration": 1.4
+        },
+        {
+          "start": 731.07,
+          "end": 732.08,
+          "duration": 1.01
+        },
+        {
+          "start": 732.42,
+          "end": 733.51,
+          "duration": 1.1
+        },
+        {
+          "start": 754.07,
+          "end": 755.99,
+          "duration": 1.93
+        },
+        {
+          "start": 760.01,
+          "end": 761.25,
+          "duration": 1.24
+        },
+        {
+          "start": 767.6,
+          "end": 769.42,
+          "duration": 1.82
+        },
+        {
+          "start": 778.76,
+          "end": 780.17,
+          "duration": 1.4
+        },
+        {
+          "start": 782.51,
+          "end": 783.69,
+          "duration": 1.18
+        },
+        {
+          "start": 793.47,
+          "end": 795.17,
+          "duration": 1.71
+        },
+        {
+          "start": 800.78,
+          "end": 801.96,
+          "duration": 1.18
+        },
+        {
+          "start": 803.12,
+          "end": 805.29,
+          "duration": 2.17
+        },
+        {
+          "start": 805.68,
+          "end": 806.83,
+          "duration": 1.15
+        },
+        {
+          "start": 831.79,
+          "end": 832.97,
+          "duration": 1.18
+        },
+        {
+          "start": 843.03,
+          "end": 844.06,
+          "duration": 1.03
+        },
+        {
+          "start": 849.3,
+          "end": 850.79,
+          "duration": 1.49
+        },
+        {
+          "start": 851.61,
+          "end": 852.7,
+          "duration": 1.09
+        },
+        {
+          "start": 853.05,
+          "end": 854.53,
+          "duration": 1.49
+        }
+      ],
+      "issues": [
+        "No major issues detected"
+      ],
+      "llm_summary": "The recording exhibits a clean signal with no clipping and a modest average level, while occasional peaks reach -2.4 dBFS, ensuring sufficient dynamic range for clear speech capture. The low silence ratio (13.6 %) indicates continuous dialogue, supporting high transcription accuracy.",
+      "recommendation": "Proceed with transcription as is; no additional audio enhancement or re-recording is required."
+    }
+  ]
+}
